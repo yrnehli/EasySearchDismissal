@@ -8,10 +8,10 @@
 
 %hook UISearchBar
 - (void)_searchFieldReturnPressed {
+	%orig;
+	
 	if (!self.text || !self.text.length) {
 		[self _cancelButtonPressed];
-	} else {
-		return %orig;
 	}
 }
 %end
