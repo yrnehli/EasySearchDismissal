@@ -6,7 +6,7 @@ ARCHS = armv7 armv7s arm64 arm64e
 include $(THEOS)/makefiles/common.mk
 
 TWEAK_NAME = EasySearchDismissal
-$(TWEAK_NAME)_FILES = HookMethods.m HookClassConformingToProtocol.m Tweak.xm
+$(TWEAK_NAME)_FILES = Tweak.xm
 $(TWEAK_NAME)_CFLAGS = -fobjc-arc
 
 include $(THEOS_MAKE_PATH)/tweak.mk
