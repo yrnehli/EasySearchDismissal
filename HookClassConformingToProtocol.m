@@ -1,7 +1,6 @@
 #import "HookClassConformingToProtocol.h"
 
 @implementation HookClassConformingToProtocol
-
 - (void)implementMethodHooks:(Protocol *)hookProtocol selectorName:(NSString *)selectorName {
 	unsigned classCount;
 	Class *classes = objc_copyClassList(&classCount);
