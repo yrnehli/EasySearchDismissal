@@ -1,5 +1,11 @@
 #import "Tweak.h"
 
+%hook UIKeyboard
+-(void)setReturnKeyEnabled:(BOOL)arg1 {
+	%orig(YES);
+}
+%end
+
 %hook UITextInputTraits
 - (void)setEnablesReturnKeyAutomatically:(BOOL)arg1 {
 	%orig(NO);

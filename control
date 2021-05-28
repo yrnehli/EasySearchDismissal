@@ -1,6 +1,6 @@
 Package: xyz.henryli17.easysearchdismissal
 Name: EasySearchDismissal
-Version: 0.0.4
+Version: 0.0.5
 Architecture: iphoneos-arm
 Description: Dismiss the the search bar by pressing 'Search' on the bottom right of your keyboard even if the search bar is empty.
 Maintainer: Henry Li
